@@ -1,0 +1,30 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a5b5a5;
+    border-radius: 4px;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #95a595;
+}
+
+.contact .info p a {
+    color: #173b6c;
+}
+
+.text-secondary {
+    color: #272829 !important;
+}
