@@ -1,0 +1,122 @@
+.project-box {
+  padding: 25px;
+  display: flex;
+  gap: 50px;
+}
+
+.project-time {
+  position: relative;
+  color: #555;
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.project-time::after {
+  content: ' ';
+  position: absolute;
+  top: 12.5px;
+  right: -2.5px;
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #149ddd;
+  transform: translateY(-5px);
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  gap: 25px;
+}
+
+.project-title {
+}
+
+.project-description {
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+
+.project-ul {
+  margin-bottom: 1.6rem;
+}
+
+.project-list {
+  margin-left: 0.8rem;
+  color: #333;
+}
+
+.technologies-tags {
+  margin-top: 15px;
+}
+
+.tech-heading {
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.technologies-tags .tag {
+  display: inline-block;
+  background: #149ddd;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.project-img {
+  width: 400px;
+  height: auto;
+}
+
+.project-img-box {
+  align-self: center;
+}
+
+/* Reversed  */
+
+.portfolioBtn {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #149ddd;
+  border: 1px solid #149ddd;
+  padding: 10px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.portfolioBtn:hover,
+.portfolioBtn:visited:hover,
+.portfolioBtn:link:hover,
+.portfolioBtn:active,
+.portfolioBtn:visited:active,
+.portfolioBtn:link:active {
+  color: #149ddd;
+}
+
+.portfolioBtn::before,
+.portfolioBtn:visited::before,
+.portfolioBtn:link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  height: 0%;
+  background: #149ddd;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.portfolioBtn:hover::before,
+.portfolioBtn:visited:hover::before,
+.portfolioBtn:link:hover::before,
+.portfolioBtn:active::before,
+.portfolioBtn:visited:active::before,
+.portfolioBtn:link:active::before {
+  height: 100%;
+}

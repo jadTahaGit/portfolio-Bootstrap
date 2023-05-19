@@ -253,6 +253,100 @@ h6 {
   border-bottom: 3px solid #149ddd;
 }
 
+.home-buttons {
+  margin-top: 3.2rem;
+}
+
+.myBtn {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.myBtn:hover,
+.myBtn:visited:hover,
+.myBtn:link:hover,
+.myBtn:active,
+.myBtn:visited:active,
+.myBtn:link:active {
+  color: white;
+}
+
+.myBtn::before,
+.myBtn:visited::before,
+.myBtn:link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  height: 0%;
+  background: #149ddd;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.myBtn:hover::before,
+.myBtn:visited:hover::before,
+.myBtn:link:hover::before,
+.myBtn:active::before,
+.myBtn:visited:active::before,
+.myBtn:link:active::before {
+  height: 100%;
+}
+
+/* Reversed  */
+
+.myBtnReversed {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #149ddd;
+  border: 1px solid #149ddd;
+  padding: 10px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.myBtnReversed:hover,
+.myBtnReversed:visited:hover,
+.myBtnReversed:link:hover,
+.myBtnReversed:active,
+.myBtnReversed:visited:active,
+.myBtnReversed:link:active {
+  color: #149ddd;
+}
+
+.myBtnReversed::before,
+.myBtnReversed:visited::before,
+.myBtnReversed:link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  height: 0%;
+  background: white;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.myBtnReversed:hover::before,
+.myBtnReversed:visited:hover::before,
+.myBtnReversed:link:hover::before,
+.myBtnReversed:active::before,
+.myBtnReversed:visited:active::before,
+.myBtnReversed:link:active::before {
+  height: 100%;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -464,7 +558,7 @@ section {
   color: #050d18;
 }
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 0px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
@@ -495,8 +589,9 @@ section {
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
-.resume .resume-item::before {
-  content: '';
+
+/* .resume .resume-item::before { */
+/* content: '';
   position: absolute;
   width: 16px;
   height: 16px;
@@ -504,8 +599,8 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
-}
+  border: 2px solid #1f5297; */
+/* } */
 
 /*--------------------------------------------------------------
 # Portfolio

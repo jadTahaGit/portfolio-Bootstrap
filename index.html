@@ -15,6 +15,9 @@
 
   <!-- Main CSS File -->
   <link href="./assets/css/main.css" rel="stylesheet">
+  <link href="./assets/css/general.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/portfolio.css" />
+
 </head>
 
 <body>
@@ -59,7 +62,12 @@
       <h1>Jad Taha</h1>
       <p>I'm <span class="typed" data-typed-items="a passionate Full-Stack Web Developer, specialized
         in both front-end and back-end."></span></p>
+        <div class="home-buttons">
+          <a class="btn myBtn" href="#portfolio">Portfolio</a>
+        </div>
     </div>
+    
+  
     
   </section><!-- End Hero -->
 
@@ -71,42 +79,38 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>Highly Motivated and skilled iOS developer with experience developing and testing modern and unique iOS applications. Skilled in Swift, XCode, Storyboard SwiftUI and Firebase. Solid Computer science and practical programming skills with a Bachelor’s Degree focused in Business Computer from Lebanese University Faculty of Technology.</p>
+          <p>Currently a Fullstack developer with a focus on developing and testing modern, unique applications. Possesses a solid foundation in computer science and practical programming skills, and is proficient in Javascript, NodeJS, ReactJS, and MaterialUI. Holds more than 10 coding certifications and is studying towards a Bachelor's degree in Computer Science and Mathematics from Ludwig Maximilian University of Munich. Demonstrates strong analytical, structured, and logical abilities.</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
           <div class="col-lg-3" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/about-img.png" class="img-fluid" style="max-width: 300px;" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>iOS Developer</h3>
-            <!-- <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p> -->
+            <h3 class="mb-4">Mernstack Developer</h3>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>24 Nov 1999</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:+96171587848" class="text-secondary">+961 71 587 848</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tyre, Lebanon</span></li>
+                  <li><i class="bi bi-circle-fill"></i> <strong>Year of Birth:</strong> <span>2000</span></li>
+                  <li><i class="bi bi-circle-fill"></i> <strong>Phone:</strong> <span><a href="tel:+96171587848" class="text-secondary">+49 152 101 4525</a></span></li>
+                  <li><i class="bi bi-circle-fill"></i> <strong>City:</strong> <span>Munich, Germany</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor’s</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span><a href="mailto:jadtaha.de@gmail.com" class="text-secondary">jadtaha.de@gmail.com</a></span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
+                  <li><i class="bi bi-circle-fill"></i> <strong>Certifications:</strong> <span>10plus</span></li>
+                  <li><i class="bi bi-circle-fill"></i> <strong>Degree:</strong> <span>Bachelor’s</span></li>
+                  <li><i class="bi bi-circle-fill"></i> <strong>Email:</strong> <span><a href="mailto:jadtaha.de@gmail.com" class="text-secondary">jadtaha.de@gmail.com</a></span></li>
+           
                 </ul>
               </div>
             </div> 
-          <p>
-            <p>
-             <ul> <li><i class="bi bi-chevron-right"></i> <strong>Preferred Quote:</strong> <span> You need to work hard and believe, You need to know how to suffer.</span></li></ul>
-            </p>
+   
+         
           </div>
+          <blockquote style="margin-top: 20px; font-size: 1.2em; font-style: italic; border-left: 5px solid #ddd; padding-left: 10px;">
+            <p><strong>Preferred Quote:</strong> "Your vision will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes." - Carl Jung</p>
+          </blockquote>
         </div>
 
       </div>
@@ -166,30 +170,206 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Since I was in college, I loved technology and was very interested in programming especially in the field of mobile app development, that's why improving my skills and knowledge is a daily goal for me, and These are some of my skills.</p>
+          <p>Ever since I was in school, I developed a passion for technology and became deeply intrigued by programming, particularly in the areas of Web Development and Software Engineering. As a result, I strive to enhance my abilities and expand my knowledge every day. The following are some of my competencies in this field.</p>
         </div>
 
         <div class="row skills-content">
 
           <div class="col-lg-6">
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Swift</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>XCode</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>OOP & Dependency injection</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>GitHub</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>API</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>UI Design</strong></li>
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i> <strong>Javascript</strong>   
+                </div> 
+                <span class="pl-3">
+                  ES2022, Destrcuting, Closures, Asynchronous JS, Event Loop, Scope and Execution Context.
+                </span>
+              </li>
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i>
+                  <strong>TypeScript</strong>
+                  
+                  </div>
+                  <span class="pl-3">
+                    Static Typing, Classes, Generics, Type Inference, Decorators, Intersection Type & Conditional Types 
+                </span></li>
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i>
+                  <strong>
+                    HTML5
+                  </strong> 
+                </div>
+                <span class="pl-3">
+                  Semantic HTML & SEO, Web Components, Canvas API, Web Storage.
+                 </span> 
+              </li>
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i> <strong>CSS3, Sass/Scss , Bootstrap, Material UI, Tailwind </strong> </div>
+                <span class="pl-3">
+                  Media Queries, CSS Grid & FlexBox, Animations & Transitions, Variables, Nesting, Mixins(reusable blocks), built-in Functions, Components,
+                  Utilities,
+                  Responsive Design and Material Design guidelines.
+                  
+                </span></li>
+           
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i> <strong>UI & UX Design</strong>
+                </div>
+                <span class="pl-3">
+                  visual hierarchy, colors and typography, intuition navigation & interaction, ease of use, user satisfaction, accessibility, Information Architectur, Interaction Design and consistent feedback mechanisms
+                </span></li>
+
+
+                <li class="row">
+                  <div>
+                    <i class="bi bi-circle-fill"></i> <strong>React with Hooks, Context API and Redux</strong> </div>
+                  <span class="pl-3">
+                    Components, JSX, Props, State, Lifecycle methods, Conditional rendering, React Router, Forms and events, Hooks, Context API, Redux, Actions, Reducers, Middlewares, Thunk  Server-side rendering.
+                  </span></li>
+
+                  <li class="row">
+                    <div>
+                      <i class="bi bi-circle-fill"></i> <strong>Adobe XD, Figma & Canva</strong>
+                    </div>
+                    <span class="pl-3">
+                      Artboards,
+                      Layers,
+                      Repeat Grids,
+                      Symbols,
+                      Plugins,
+                      Frames,
+                      Components,
+                      Auto-layout,
+                      Prototyping,
+                      Collaboration features,
+                      Templates,
+                      Drag-and-drop interface,
+                      Brand kit,
+                      Stock photos and illustrations,
+                      Design animations.
+
+                    </span>
+                </li>
             </ul>
           </div>
 
           <div class="col-lg-6">
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>UIKit</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>MVVM & MVC Design Patterns</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>CocoaPods</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Firebase</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>SwiftUI</strong></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Figma Platform</strong></li>
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i> <strong>NodeJS, NPM & Express.js</strong> </div>
+                <span class="pl-3">
+                  Node.js runtime environment,
+                  Asynchronous programming,
+                  Event-driven architecture,
+                  Single-threaded event loop,
+                  Non-blocking I/O,
+                  Buffers and streams,
+                  Modules and packages,
+                  CommonJS module system,
+                  NPM (Node Package Manager),
+                  Express.js framework,
+                  Routing,
+                  Middleware,
+                  Template engines,
+                  RESTful APIs,
+                  JSON web tokens (JWT),
+                  Socket.io,
+                  File system operations,
+                  Child processes,
+                  Cluster module,
+                  Error handling.
+                </span>
+              </li>
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i> 
+                  <strong>NoSQL Databases, MongoDB</strong>
+                </div>
+                  <span class="pl-3">
+                    Document-based data model,
+                    Collections,
+                    BSON (Binary JSON),
+                    Indexing,
+                    Sharding,
+                    Replication,
+                    Aggregation framework,
+                    MapReduce,
+                    GridFS,
+                    Transactions,
+                    Compass (GUI for MongoDB).
+                </span>
+              </li>
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i> <strong>SQL, PostgreSQL, MySQL & SQL Server</strong> </div>
+                <span class="pl-3">
+                  Tables,
+                  Primary key,
+                  Foreign key,
+                  Indexes,
+                  Queries,
+                  Joins,
+                  Aggregation,
+                  Transactions,
+                  Views,
+                  Triggers,
+                  Stored procedures,
+                  Functions,
+                  Data types,
+                  Constraints,
+                  DDL (Data Definition Language),
+                  DML (Data Manipulation Language),
+                  DCL (Data Control Language)  ,Subqueries
+                  Union
+                  Intersection
+                  Except
+                  Case statements
+                  Order by
+                  Group by
+                  Having
+                  Scalar functions
+                  Cursors,
+                  Index types (e.g. B-tree, Hash, Bitmap),
+                  Data partitioning,
+                  Clustering,
+                  Full-text search,
+                  Replication,
+                  Backup and restore,
+                  ACID properties (Atomicity, Consistency, Isolation, Durability),
+                  Normal forms (1NF, 2NF, 3NF, BCNF),
+                  OLTP (Online Transaction Processing),
+                  OLAP (Online Analytical Processing) ,             
+                </span>
+              </li>
+              <li class="row">
+                <div>
+                  <i class="bi bi-circle-fill"></i> <strong>Cload Services: Firebase, Netlify &  Heruko</strong> </div>
+                <span class="pl-3">
+                  hosting, authentication, cloud messaging,real-time databases, continuous deployment, version control, serverless functions,deploying, managing, and scaling web applications, fast performance, and scalable infrastructure.
+                </span>
+              </li>
+              <li class="row">
+                <div><i class="bi bi-circle-fill"></i> <strong>API (Application Programming Interface)</strong> 
+                </div>
+                  <span class="pl-3">
+                    REST API,
+                    SOAP API,
+                    GraphQL API,
+                    API endpoint,
+                    API documentation,
+                    API key,
+                    API rate limiting,
+                    API versioning,
+                    API security/authentication,
+                    Postman
+                    Swagger
+                  </span>
+              </li>
             </ul>
           </div>
           
@@ -203,98 +383,102 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>I am a very organized and creative developer, my goal has always been to take my career to the next level, by learning new skills, sharing my knowledge, and working on a great project in middle companies and startups.</p>
+          <p>I am a highly organized and creative developer with a passion for taking my career to the next level. My focus is on continuously learning new skills, sharing my knowledge, and working on innovative projects.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Soft Skills <i class="bi bi-people-fill"></i></h3>
             <div class="resume-item pb-0">
-              <h4>Jad Taha</h4>
-              <p><em>Innovative and deadline-driven iOS Developer with experience developing and testing modern and unique iOS applications from initial concept to final, polished deliverable.</em></p>
               <ul>
-                <li>Tyre, Lebanon</li>
-                <li>+49 1522 101 4525</li>
-                <li>jadtaha.de@gmail.com</li>
+                <li>Team player</li>
+                <li>Committed analyst with practical mathematical knowledge</li>
+                <li>Thorough understanding of the scientific method</li>
+                <li>High quality awareness and precise work style</li>
+                <li>Able to handle high levels of stress and perform under pressure</li>
+                <li>Reliable and responsible</li>
+                <li>Solution- and goal-oriented with strong critical thinking skills</li>
+                <li>Highly skilled in communication and organization</li>
+                <li>Willingness to learn new areas of expertise</li>
+                <li>Tech-savvy and interested in startups in the internet industry.</li>
               </ul>
             </div>
 
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title">Professional Experience <i class="bi bi-laptop"></i></h3>
             <div class="resume-item">
-              <h4>iOS Developer - Full time</h4>
-              <h5>12 / 2020 - Present</h5>
-              <p><em>Integrated Digital Systems (IDS), Beirut </em></p>
               <ul>
-                <li>Developing and Updating Native iOS application using swift UIKit.</li>
-                <li>Strong skills for efficiently creating and designing rich UI and animations both programmatically and through Storyboards. </li>
-                <li>Experience with Pods and SDK implementation.</li>
-                <li>Advanced skills in implementing Web services and JSON API parsing using Alamofire.</li>
-                <li>Experience with Adaptive UI development and UX design.</li>
-                <li>Good debugging skills in XCode.</li>
-                <li>Experience with tracking on map algorithms using firebase tools.</li>
-                <li>SwiftUI framework Research and implementation experience.</li>
-                <li>Good skills in Object-Oriented and Protocol-Oriented design and programming skills in Swift using MVC and MVVM design pattern.</li>
-                <li>Experience working on improving user accessibility and voice over</li>
-                <li>Firebase tools implementation experience.</li>
-                <li>Maps implementation experience (MapKit, Google Map, Open Street Map API)</li>
-                <li>Worked with quality assurance team to confirm app performance.</li>
-                <li>Work with other developers, designers and team leader to develop new features consistent with product roadmap.</li>
-                <li>Experience working from office and remotely.</li>
-              </ul>
+                <li>Computer Repair: (2015).</li>
+                <li>Mechatronics Assistant: (2016).</li>
+                <li>Web Development Bootcamp 2018</li>
+                <li>Exam Supervisor: Focus - Munich (01.2020-03.2020).</li>
+                <li>Student Assistant at MEGA Tech (09.2020).</li>
+                <li>Web Development &amp; Content Creation: YottaDev.</li>
+                <li>CTO &amp; CEO &amp; MERN STACK Development of Coachync.com (01.2022 till now)</li>
+                <li>15+ Projects successfully Freelancing on Fiver.com (06.2022 - till now)</li>
+                <li>Code With Jad - Youtube Channel (01.2023- till now)</li>
+                <li>Fullstack developer &amp; Data Analyst at mediwave GmBH (10.2021 till now)</li>
+                </ul>
             </div>
 
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             
+            <h3 class="resume-title">Language <i class="bi bi-translate"></i></h3>
             <div class="resume-item">
-              <h4>iOS Developer - Weekends</h4>
-              <h5>03 / 2022 - Present</h5>
-              <p><em>Coachync, remotely </em></p>
               <ul>
-                <li>Working on a Coaching website and mobile app idea with a Worldwide team from Lebanon, Portugal, Argentina, Germany, Pakistan and India etc...</li>
-                <li>Participating in planning and management. </li>
-                <li>Sharing my Software Engineering knowledge, with tech team.</li>
-                <li>Creating the Mobile app design on Figma Platform.</li>
-                <li>Working on the iOS application development with MVVM design pattern.</li>
-                <li>Working with the android Developer on the android app architech. </li>
-                <li>Developing my communication and analytical Skills.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>iOS Developer, Internship</h4>
-              <h5>10 / 2020 - 11 / 2020</h5>
-              <p><em>Integrated Digital Systems (IDS), Beirut</em></p>
-              <ul>
-                <li>Develop basic user interface design using swift.</li>
-                <li>Basic Experience with Pods and APIs parsing.</li>
-                <li>Basic debugging knowledge with XCode.</li>
+                <li>German - C2</li>
+                <li>Arabic - C2</li>
+                <li>English - C1</li>
+                <li>French - A1</li>
               </ul>
             </div>
 
+            <h3 class="resume-title">Hobbies <i class="bi bi-tsunami"></i></h3>
             <div class="resume-item">
-              <h4>Windows Application Development, Internship</h4>
-              <h5>08 / 2019 - 09 / 2019</h5>
-              <p><em>Dolly Soft, Tyre</em></p>
               <ul>
-                <li>Develop simple product management system using C#.</li>
-                <li>Basic Experience with SQL Server.</li>
+                <li>Reading.</li>
+                <li>Kickboxing.</li>
+                <li>Cooking.</li>
+                <li>Youtube - Content Creation.</li>
+                <li>Swimming.</li>
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title">Certifications <i class="bi bi-person-check"></i></h3>
             <div class="resume-item">
-              <h4>Bachelor’s Degree – Business Computer </h4>
-              <h5>2017 - 2020</h5>
-              <p><em>Lebanese University – Faculty of Technology, Saida</em></p>
+              <ul>
+                <li>New Technology Center - Web Development - 2018 (PHP, HTML, CSS, MySQL, JavaScript & JQuery).</li>
+                <li>Sololearn Certifications - 2018 (PHP, HTML, CSS, MySQL und JavaScript).</li>
+                <li>
+                    Build Responsive Modern Websites - By Jonas Schmedtmann - 2021
+                  </li>
+                </ul>
+              </div>
+
+            <h3 class="resume-title">Education <i class="bi bi-mortarboard-fill"></i></h3>
+            <div class="resume-item">
+            <ul>
+              <li>Student at LMU: Computer Science and Math Bachelor (4th Semester)</li>
+              <li>General Science High School Diploma, 07/2017</li>
+              <li>Tyrus Gymnasium - Lebanon, 09/2014-07/2017</li>
+              <li>Private Elementary School - Amelie, 09/2005-07/2014</li>
+            </ul>
             </div>
 
           </div>
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
+    </section>
+
+    <!-- End Resume Section -->
+
+
+
+
 
     <!-- ======= Portfolio Section ======= -->
+  <!--  
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
 
@@ -309,7 +493,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-upcuming">Upcoming</li>
-              <!-- <li data-filter=".filter-web">Web</li> -->
+               <li data-filter=".filter-web">Web</li> 
             </ul>
           </div>
         </div>
@@ -371,7 +555,7 @@
               <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Arsel is the Communications Regulatory Authority’s mobile app to empower telecom consumers in Qatar."><i class="bx bx-plus"></i></a>
-                <!-- <a href="https://apps.apple.com/lb/app/champs-fitness/id1263073745" title="More Details"><i class="bx bx-link"></i></a> -->
+                 <a href="https://apps.apple.com/lb/app/champs-fitness/id1263073745" title="More Details"><i class="bx bx-link"></i></a> 
               </div>
             </div>
           </div>
@@ -379,7 +563,242 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+
+  -->
+    <!-- End Portfolio Section -->
+
+
+    <!-- ======= NEW Portfolio Section ======= -->
+
+    <section id="portfolio" class="portfolio section-bg" >
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>During my professional experience, I worked on several projects with different types of tasks such as creating applications from A to Z, updating and adding new features, testing and fixing bugs. Take a look at some of the projects I've worked on, available on the App Store.</p>
+        </div>
+
+
+      <div class="project-box">
+        <div class="project-time">Ongoing</div>
+        <div class="project-content">
+          <div class="project-text">
+            <h3 class="project-title">Facebook Clone</h3>
+            <p class="project-subtitle">
+              Facebook timeline is one of the most nested social media timelines outhere.
+            </p>
+            <p class="project-description">
+              I am creating a similar one to show my Proficiency and love for the work I do. 
+              The Clone is still on-go. 
+            </p>
+            <ul class="project-ul">
+              <li class="project-list">
+                Challenges till now are the huge number of CSS-Grids and Flexboxes. 
+              </li>
+            </ul>
+            <a href="https://jadsbook.netlify.app/" target="_blank"  class="btn portfolioBtn ">More Details</a>
+            <div class="technologies-tags">
+              <h4 class="tech-heading">Technologies Used:</h4>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JS</span>
+              <span class="tag">DOM</span>
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img
+              class="project-img"
+              src="./assets/img/portfolio/jadsbook.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-time">09-2021</div>
+        <div class="project-content">
+          <div class="project-text">
+            <h3 class="project-title">Bootcamp Landing Page</h3>
+            <p class="project-subtitle">
+              Learn Frontend With Jad - Sign up for a place.
+            </p>
+            <p class="project-description">
+              Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.
+            </p>
+            <ul class="project-ul">
+              <li class="project-list">
+                A Programming Academy Offering a bootcamp and other services.
+              </li>
+              <li class="project-list">
+                Newsletter Subscription + Sign Up Form + MapBox API
+              </li>
+            </ul>
+            <a href="https://learn-frontend-jad.netlify.app" target="_blank"  class="btn portfolioBtn ">More Details</a>
+            <div class="technologies-tags">
+              <h4 class="tech-heading">Technologies Used:</h4>
+              <span class="tag">HTML5</span>
+              <span class="tag">Bootstrap5</span>
+              <span class="tag">JS</span>
+              <span class="tag">DOM</span>
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img
+              class="project-img"
+              src="./assets/img/portfolio/bootcamp (1).png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+
+      <div class="project-box">
+        <div class="project-time">08-2021</div>
+        <div class="project-content">
+          <div class="project-text">
+            <h3 class="project-title">Omni Food</h3>
+            <p class="project-subtitle">
+              A healthy meal delivered to your door, every single day.
+            </p>
+            <p class="project-description">
+              Omnifood is a new premium food delivery service. Omnifood is an
+              AI-powered food subscription that will make you eat healthy
+              again, 365 days per year. It's tailored to your personal tastes
+              and nutritional.
+            </p>
+            <ul class="project-ul">
+              <li class="project-list">
+                A Food company Website to show the services and make offers.
+              </li>
+              <li class="project-list">
+                Sign up Form connected with netlify :).
+              </li>
+            </ul>
+            <a href="https://omnifood-jad.netlify.app/" target="_blank"  class="btn portfolioBtn ">More Details</a>
+            <div class="technologies-tags">
+              <h4 class="tech-heading">Technologies Used:</h4>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JS</span>
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img
+              class="project-img"
+              src="./assets/img/portfolio/Omnifood (1).png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-time">2021</div>
+        <div class="project-content">
+          <div class="project-text">
+            <h3 class="project-title">Pig Game</h3>
+            <p class="project-subtitle">Simple dice game</p>
+            <p class="project-description">
+              Pig is a simple dice game. Players take turns to roll a single
+              die as many times as they wish, adding all roll results to a
+              running total, but losing their gained score for the turn if
+              they roll a 1.
+            </p>
+            <a href="https://piggame-jad.netlify.app/" target="_blank"  class="portfolioBtn ">More Details</a>
+            <div class="technologies-tags">
+              <h4 class="tech-heading">Technologies Used:</h4>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JS</span>
+              <span class="tag">DOM</span>
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img class="project-img" src="./assets/img/portfolio/pigGame.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-time">2020</div>
+        <div class="project-content">
+          <div class="project-text">
+            <h3 class="project-title">Yotta Dev</h3>
+            <p class="project-subtitle">
+              Premium on results-driven web design & branding.
+            </p>
+            <p class="project-description">
+              Yotta Dev is a software development company and digital
+              marketing. We're nuts about improving your business so we ensure
+              that we track results from day one.
+            </p>
+            <ul class="project-ul">
+              <li class="project-list">
+                A company Website to show the services and make offers.
+              </li>
+              <li class="project-list">
+                Contact Form to send the company messages and get help.
+              </li>
+            </ul>
+            <a href="https://www.yottadev.net/" target="_blank"  class="btn portfolioBtn ">More Details</a>
+            <div class="technologies-tags">
+              <h4 class="tech-heading">Technologies Used:</h4>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img
+              class="project-img"
+              src="./assets/img/portfolio/yotta (1).png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-time">2018</div>
+        <div class="project-content">
+          <div class="project-text">
+            <h3 class="project-title">Pico World</h3>
+            <p class="project-subtitle">Science & Code</p>
+            <p class="project-description">
+              Blog Site for articles and 11k Followers on IG
+            </p>
+            <ul class="project-ul">
+              <li class="project-list">🤖| We Create The Future</li>
+              <li class="project-list">🤝| Helping You Grow Your Business</li>
+              <li class="project-list">
+                📚| Web | Software | Network | Security
+              </li>
+              <li class="project-list">
+                Contact Form to send the company messages and get help.
+              </li>
+            </ul>
+            <a href="https://picoworld19.blogspot.com/"  target="_blank"  class="btn portfolioBtn ">More Details</a>
+            <div class="technologies-tags">
+              <h4 class="tech-heading">Technologies Used:</h4>
+              <span class="tag">HTML</span>
+              <span class="tag">Blogger</span>
+              <span class="tag">Canva</span>
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img class="project-img" src="./assets/img/portfolio/pico.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </section>
+    <!-- End NEW Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
