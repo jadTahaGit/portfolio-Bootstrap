@@ -73,6 +73,9 @@
 
 .project-img-box {
   align-self: center;
+  max-height: 500px;
+  overflow: hidden;
+  border: 2px solid #149ddd;
 }
 
 /* Reversed  */

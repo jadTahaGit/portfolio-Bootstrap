@@ -25,6 +25,10 @@ h6 {
   font-family: 'Raleway', sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -298,52 +302,6 @@ h6 {
 .myBtn:active::before,
 .myBtn:visited:active::before,
 .myBtn:link:active::before {
-  height: 100%;
-}
-
-/* Reversed  */
-
-.myBtnReversed {
-  position: relative;
-  font-size: 2rem;
-  font-weight: 500;
-  color: #149ddd;
-  border: 1px solid #149ddd;
-  padding: 10px 20px;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.myBtnReversed:hover,
-.myBtnReversed:visited:hover,
-.myBtnReversed:link:hover,
-.myBtnReversed:active,
-.myBtnReversed:visited:active,
-.myBtnReversed:link:active {
-  color: #149ddd;
-}
-
-.myBtnReversed::before,
-.myBtnReversed:visited::before,
-.myBtnReversed:link::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 20px 20px 20px 20px;
-  width: 100%;
-  height: 0%;
-  background: white;
-  z-index: -1;
-  transition: 0.8s;
-}
-
-.myBtnReversed:hover::before,
-.myBtnReversed:visited:hover::before,
-.myBtnReversed:link:hover::before,
-.myBtnReversed:active::before,
-.myBtnReversed:visited:active::before,
-.myBtnReversed:link:active::before {
   height: 100%;
 }
 
