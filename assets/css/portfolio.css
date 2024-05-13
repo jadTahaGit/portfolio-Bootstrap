@@ -12,7 +12,7 @@
 }
 
 .project-time::after {
-  content: ' ';
+  content: " ";
   position: absolute;
   top: 12.5px;
   right: -2.5px;
@@ -72,10 +72,18 @@
 }
 
 .project-img-box {
-  align-self: center;
+  align-self: flex-start;
   max-height: 500px;
   overflow: hidden;
   border: 2px solid #149ddd;
+}
+
+.project-img-box-x1p3 {
+  max-height: 700px !important;
+}
+
+.project-img-box-x2 {
+  max-height: 85% !important;
 }
 
 /* Reversed  */
@@ -103,7 +111,7 @@
 .portfolioBtn::before,
 .portfolioBtn:visited::before,
 .portfolioBtn:link::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
