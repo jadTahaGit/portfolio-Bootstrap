@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Sanchez:400italic,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+.article-details-container {
+  font-size: 18px;
+}
+
+.article-details-container .content {
+  padding-top: 24px;
+}
+
+.article-details-container .date {
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #aaa;
+}
+
+.article-details-container img {
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.article-details-container .img-container {
+  position: relative;
+  border-radius: 8px;
+}
+
+.article-details-container .img-container::before {
+  position: absolute;
+  content: "";
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.blockquote-style-1 {
+  position: relative;
+  font-family: "Sanchez", serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-style: italic;
+}
+
+.blockquote-style-1::before {
+  content: "\201C";
+  position: absolute;
+  top: 0.25em;
+  left: -0.15em;
+  color: hsl(50, 5%, 90%);
+  font-size: 6em;
+  z-index: -1;
+}
+
+.blockquote-style-2 {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid hsl(200, 40%, 50%);
+  font-family: "Roboto", serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+
+.blockquote-style-2::before,
+.blockquote-style-2::after {
+  content: "\201C";
+  font-family: "Sanchez";
+  color: hsl(200, 40%, 50%);
+}
+
+.blockquote-style-2::after {
+  content: "\201D";
+}
+
+.blockquote-style-3 {
+  position: relative;
+  font-family: "Sanchez", serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.blockquote-style-3::after {
+  content: "\201D";
+  position: absolute;
+  top: 0.28em;
+  right: 0;
+  font-size: 6em;
+  font-style: italic;
+  color: hsl(50, 5%, 90%);
+  z-index: -1;
+}
+
+.blockquote-style-3 footer {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.6em;
+  font-weight: 700;
+  color: hsl(50, 5%, 82%);
+  float: right;
+}
+
+.blockquote-style-3 footer::before {
+  content: "\2015";
+}
+
+.latest-article-card {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition: 0.4s;
+  padding: 8px;
+}
+
+.latest-article-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.latest-article-card img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.latest-article-card .img-container {
+  position: relative;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.latest-article-card .img-container::before {
+  position: absolute;
+  content: "";
+  border-radius: 8px;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateY(-50%);
+}
+
+.latest-article-card .content {
+  padding: 12px;
+}
+
+.latest-article-card .content h3 {
+  font-size: 20px;
+}
+
+.latest-article-card .content h3 a {
+  color: #149ddd;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  transition: 0.4s;
+}
+
+.latest-article-card .content h3 a:hover {
+  color: #094868;
+}
+
+.latest-article-card .content .date {
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #aaa;
+}
+
+.latest-article-card .content p {
+  height: 42px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.latest-article-card .content .read-more {
+  color: #149ddd;
+  border-radius: 8px;
+  border: 1px solid #149ddd;
+  transition: 0.4s;
+  padding: 8px;
+}
+
+.latest-article-card .content .read-more:hover {
+  color: #094868;
+  border-color: #094868;
+}
