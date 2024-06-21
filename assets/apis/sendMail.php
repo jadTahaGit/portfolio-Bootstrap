@@ -18,7 +18,7 @@
     $headers .= "X-Priority: 3\r\n";
     $headers .= "X-Mailer: PHP". phpversion() ."\r\n";
 
-    if(mail($to, $subject, $msg, $headers)) {
+    if(mail($to, $subject, $message, $headers)) {
         $response = (object)[
             'success' => true
         ];
